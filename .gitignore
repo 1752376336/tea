@@ -1,25 +1,20 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+/out
+/logs
+.idea/
 *.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+target/
+overlays/
+tmp/
+.command
+*.log
+*.lnk
+*.orig
+*.ini
+.bowerrc
+/classes
+package-lock.json
+node_modules/
+.DS_Store/
+.history/
+phantomjsdriver.log
+dependency-reduced-pom.xml

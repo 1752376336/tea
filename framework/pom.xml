@@ -80,11 +80,6 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-oauth2</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>phantomjsdriver</artifactId>
             <version>${phantom.js.version}</version>
@@ -94,10 +89,6 @@
                     <artifactId>netty</artifactId>
                     <groupId>io.netty</groupId>
                 </exclusion>
-                <!--<exclusion>-->
-                <!--<artifactId>guava</artifactId>-->
-                <!--<groupId>com.google.guava</groupId>-->
-                <!--</exclusion>-->
                 <exclusion>
                     <artifactId>httpclient</artifactId>
                     <groupId>org.apache.httpcomponents</groupId>
